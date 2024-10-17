@@ -12,7 +12,7 @@
                     <input type="hidden" name="id" value="<?=$dosen['id']; ?> ">
                         <div class="form-group">
                             <label for="nip">NIP</label>
-                            <input type="text" class="form-control" id="nip" value="<?= $dosen['nip'] ?>" name="nip">
+                            <input type="text" class="form-control" id="nip" value="<?= $dosen['nip'] ?>" name="nip" readonly>
                             <small class="form-text text-danger"><?= form_error('nip') ?></small>
                             <!--   jika sudah menambahkan form error dibagian bawah maka validation eroor dihapus saja -->
                         </div>

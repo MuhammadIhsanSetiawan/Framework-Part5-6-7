@@ -16,7 +16,7 @@
     <div class="row mt-4">
         <div class="col-md-6">
             <!-- TombolTambah Data -->
-            <a href="<?= base_url(); ?>dosen/tambah" class=" btn btn-primary"> Tambah Data Dosen</a>
+            <a href="<?= base_url(); ?>dosen/tambah" class=" btn btn-primary">Tambah Data Dosen</a>
         </div>
      </div>
  <!-- Akhir Tambah Data Dosen-->

@@ -35,8 +35,8 @@
                         <a class="nav-item nav-link" href=" <?= base_url(); ?> ">Beranda <span class="sr-only">(current)</span></a>
                         <a class="nav-item nav-link" href="<?= base_url(); ?>mahasiswa">Mahasiswa</a>
                         <a class="nav-item nav-link" href="<?= base_url(); ?>dosen">Dosen</a>
-                        <a class="nav-item nav-link" href="<?= base_url('admin/login'); ?>">Login</a>
-                        <a class="nav-item nav-link" href="<?= base_url(); ?>jurusan">jurusan</a>
+                        <!--<a class="nav-item nav-link" href="<?= base_url('login'); ?>">Login</a>-->
+                        <a class="nav-link" href="<?= base_url()?>login/logout">Logout</a>
                         <a class="nav-item nav-link" href=" <?= base_url(); ?>#about">About</a>
                         <a class="nav-item nav-link" href="<?= base_url(); ?>#kontak">kontak kami</a>
                         <a class="nav-item nav-link" href="#">Tentang Kamu</a>
@@ -45,14 +45,3 @@
             <!-- akhir navbar per item -->
         </div>
     </nav>
-
-
-    <!-- <div class="jumbotron jumbotron-fluid ">
-            <div class="container text-center">
-                <h1 class="display-4">WELCOME TO WEBSITE CODEIGNITER</h1>
-                <p class="lead">CREATED BY FRENGKLIN MATATULA</p>
-            </div>
-        </div> -->
-
-
-    <!-- <div class="div container"> -->

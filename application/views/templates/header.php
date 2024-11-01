@@ -1,47 +1,59 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html lang="zxx">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Heritage From Dead By Daylight</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Game Warrior Template">
+	<meta name="keywords" content="warrior, game, creative, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->   
+	<link href="assets/images/DBDlogo.jpg" rel="shortcut icon"/>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" rel="stylesheet">
 
-<!-- my css -->
-<link rel="stylesheet" href="<?= base_url(); ?>assets/css/style.css"> 
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="assets/css/owl.carousel.css"/>
+	<link rel="stylesheet" href="assets/css/style.css"/>
+	<link rel="stylesheet" href="assets/css/animate.css"/>
 
-<!-- akhir my CSS -->
 
-    <!-- bisa menggunakan <?php echo $data['judul']; ?> atau seperti dibawah ini -->
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
 
-    <title><?php echo $judul; ?> </title>
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="<?= base_url(); ?> ">PENJADWALAN</a>
-            <!-- awal button jika di buka versi mobile -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- akhir button versi mobile -->
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
 
-            <!-- awal navbar per item -->
-                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                     <div class="navbar-nav">
-                        <a class="nav-item nav-link" href=" <?= base_url(); ?> ">Beranda <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="<?= base_url(); ?>mahasiswa">Mahasiswa</a>
-                        <a class="nav-item nav-link" href="<?= base_url(); ?>dosen">Dosen</a>
-                        <!--<a class="nav-item nav-link" href="<?= base_url('login'); ?>">Login</a>-->
-                        <a class="nav-link" href="<?= base_url()?>login/logout">Logout</a>
-                        <a class="nav-item nav-link" href=" <?= base_url(); ?>#about">About</a>
-                        <a class="nav-item nav-link" href="<?= base_url(); ?>#kontak">kontak kami</a>
-                        <a class="nav-item nav-link" href="#">Tentang Kamu</a>
-                     </div>
-                </div>
-            <!-- akhir navbar per item -->
-        </div>
-    </nav>
+	<!-- Header section -->
+	<header class="header-section">
+		<div class="container">
+			<!-- logo -->
+			<a class="site-logo" href="index">
+				<img src="assets/images/DBDtitle.jpg" alt="">
+			</a>
+			</div>
+			<!-- responsive -->
+			<div class="nav-switch">
+				<i class="fa fa-bars"></i>
+			</div>
+			<!-- site menu -->
+			<nav class="main-menu">
+				<ul>
+					<li><a href="Lobby">Lobby</a></li>
+					<li><a href="Game">Game</a></li>
+					<li><a href="Squad">Squad</a></li>
+					<li><a href="Member">Member</a></li>
+					<li><a href="Kontak">Kontak</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
